@@ -1,5 +1,7 @@
 # Order_Times_Series_Forecasting
 
+# USING PYTHON
+
 ## OVERVIEW
 The objective of this project is to utilize data visualization techniques to showcase insightful findings or make specific points using the Product Demand dataset. The dataset contains historical product demand for a manufacturing company that offers a wide range of products across various categories. The company operates multiple central warehouses to distribute its products within the region it serves. As the products are manufactured in different global locations, shipping usually takes over a month via ocean transport to reach the central warehouses.
   
