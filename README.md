@@ -440,3 +440,23 @@ Date
 Length: 994, dtype: float64
 ```
 
+# USING SAGEMAKER FOR MULTIVARIATE PREDICTIONS
+
+Input data 
+![image](https://github.com/Tann1901/Python-Times_Series_Demand_Forecasting/assets/108020327/62b87f8a-ca63-4426-b2ed-2e8034c08e0c)
+
+Clean data
+![image](https://github.com/Tann1901/Python-Times_Series_Demand_Forecasting/assets/108020327/ce5c3622-747d-4fa1-a44f-78364425c5bc)
+
+Steps of Cleaning: Drop duplicate, Remove missing values 
+![image](https://github.com/Tann1901/Python-Times_Series_Demand_Forecasting/assets/108020327/262527d8-ac05-4fe0-981b-ce6501970dfe)
+
+Configure With prediction as Order_Demand And Run Prediction
+![image](https://github.com/Tann1901/Python-Times_Series_Demand_Forecasting/assets/108020327/16e394df-890a-48df-bc38-49137f49d0cc)
+
+Result of Prediction of Multiple Products
+![image](https://github.com/Tann1901/Python-Times_Series_Demand_Forecasting/assets/108020327/575ad258-d5de-4973-bada-b059148ab5fd)
+
+Result of Prediction of Single Selected Product - here we select Product_1359
+![image](https://github.com/Tann1901/Python-Times_Series_Demand_Forecasting/assets/108020327/051be29c-1c5f-4979-baa6-e476783106e6)
+
