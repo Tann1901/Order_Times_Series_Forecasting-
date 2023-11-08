@@ -349,7 +349,7 @@ Obtain the fitted values or predicted values from an exponential smoothing model
 ```
 expSmoothFit.fittedvalues
 ```
-```
+
 Date
 2015-01-31     8172.854943
 2015-02-28    16265.480315
@@ -401,7 +401,7 @@ Date
 2018-12-31     3447.400791
 2019-01-31     -372.856121
 Freq: M, dtype: float64
-```
+
 ```
 # Exponential Smoothing time series of forecasted values for the future periods
 expSmoothFit.forecast(len(valid_ts))
@@ -424,7 +424,7 @@ Freq: M, Length: 228, dtype: float64
 # Residual Errors
 residuals_ts
 ```
-```
+
 Date
 2015-01-05    292732.848586
 2015-01-06    200523.175878
@@ -438,5 +438,5 @@ Date
 2019-01-25   -174671.194877
 2019-01-26    420527.994742
 Length: 994, dtype: float64
-```
+
 
