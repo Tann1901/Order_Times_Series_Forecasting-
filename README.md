@@ -2,9 +2,13 @@
 
 ## OVERVIEW
 The objective of this project is to utilize data visualization techniques to showcase insightful findings or make specific points using the Product Demand dataset. The dataset contains historical product demand for a manufacturing company that offers a wide range of products across various categories. The company operates multiple central warehouses to distribute its products within the region it serves. As the products are manufactured in different global locations, shipping usually takes over a month via ocean transport to reach the central warehouses.
+  
   a. Plot the demand for different product categories to gain insights into their demand patterns.
+  
   b. Use data visualization techniques to demonstrate if there have been any changes in the demand for product categories over the years.
+  
   c. Analyze and track the demand trends for the top five products in the year 2014. Present the findings visually to showcase any significant changes or patterns in their demand over the years.
+  
   d. Apply a simple exponential forecasting method to predict the demand for the item with the highest demand from the category that had the highest demand in 2019.
   
 ## PLATFORM
