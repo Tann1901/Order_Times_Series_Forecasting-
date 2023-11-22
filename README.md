@@ -325,7 +325,7 @@ Regression statistics
                Mean Error (ME) : -642.5662
 Root Mean Squared Error (RMSE) : 379147.5579
      Mean Absolute Error (MAE) : 271284.1141
-
+```
 The Naive model with a 1-month shift tends to overpredict demand on average, as indicated by the positive ME.
 The Naive model with a 12-month (1-year) shift tends to underpredict demand on average, as indicated by the negative ME.
 Both models exhibit significant RMSE and MAE, indicating errors in their predictions.
