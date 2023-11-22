@@ -325,7 +325,6 @@ Regression statistics
                Mean Error (ME) : -642.5662
 Root Mean Squared Error (RMSE) : 379147.5579
      Mean Absolute Error (MAE) : 271284.1141
-```
 The Naive model with a 1-month shift tends to overpredict demand on average, as indicated by the positive ME.
 The Naive model with a 12-month (1-year) shift tends to underpredict demand on average, as indicated by the negative ME.
 Both models exhibit significant RMSE and MAE, indicating errors in their predictions.
@@ -348,7 +347,7 @@ expSmoothFit = expSmooth.fit(smoothing_level=0.2)
 expSmoothFit.fittedvalues.plot(ax=ax)
 expSmoothFit.forecast(len(valid_ts)).plot(ax=ax, style='--', linewidth=2, color='C0')
 singleGraphLayout(ax, [-1000000, 2500000], train_df, valid_df)
-```
+
 ![image](https://github.com/Tann1901/Order_Times_Series_Forecasting-/assets/108020327/24c49669-ab70-4f6e-92b3-76ae2b724b7c)
 
 Obtain the fitted values or predicted values from an exponential smoothing model.
