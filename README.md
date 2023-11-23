@@ -306,25 +306,27 @@ The Seasonal model has a lower RMSE and MAPE, indicating better predictive accur
 Both models exhibit biases in their predictions (negative MPE for Naive and negative MPE for Seasonal), but the Seasonal model has a smaller magnitude of bias.
 
 #### Training Set
-```
 # Training vs. Naive (shifted by 1 month)
+```
 regressionSummary(train_ts[1:], train_ts[:-1])
 ```
-Regression statistics
 
+Regression statistics
+```
                Mean Error (ME) : 133.9376
 Root Mean Squared Error (RMSE) : 364136.2789
      Mean Absolute Error (MAE) : 259163.1420
-
 ```
 # Training Vs. Naive Sesonal (shifted by 12 months)
+```
 regressionSummary(train_ts[12:], train_ts[:-12])
 ```
 Regression statistics
-
+```
                Mean Error (ME) : -642.5662
 Root Mean Squared Error (RMSE) : 379147.5579
      Mean Absolute Error (MAE) : 271284.1141
+```
 The Naive model with a 1-month shift tends to overpredict demand on average, as indicated by the positive ME.
 The Naive model with a 12-month (1-year) shift tends to underpredict demand on average, as indicated by the negative ME.
 Both models exhibit significant RMSE and MAE, indicating errors in their predictions.
