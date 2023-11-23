@@ -352,6 +352,7 @@ singleGraphLayout(ax, [-1000000, 2500000], train_df, valid_df)
 
 Obtain the fitted values or predicted values from an exponential smoothing model.
 ```
+```
 expSmoothFit.fittedvalues
 ```
 ```
@@ -432,26 +433,16 @@ residuals_ts
 ```
 Date
 2015-01-05    292732.848586
-
 2015-01-06    200523.175878
-
 2015-01-10    266313.915329
-
 2015-01-11   -253894.933060
-
 2015-01-12   -184103.369289
-                  ...   
-                  
+                  ...     
 2019-01-20     40733.709224
-
 2019-01-21   -217068.337636
-
 2019-01-22   -240869.972336
-
 2019-01-25   -174671.194877
-
 2019-01-26    420527.994742
-
 Length: 994, dtype: float64
 ```
 
